@@ -1,0 +1,33 @@
+
+.nav-header {
+    
+    z-index: 2;
+    margin: 0 auto;
+}
+
+.rel {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.abso {
+    position: absolute;
+}
+// Met un voil noir sur les images du carous
+.img-carou {
+    filter: brightness(20%);
+}
+// Les border de la nav
+.br {
+    border-top: solid;
+    border-bottom: solid;
+    border-color: white;
+}
+// Fixe le captation
+.cap {
+    bottom: 50% !important;
+}
+// Indicateur carousel 
