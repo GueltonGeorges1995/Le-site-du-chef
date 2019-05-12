@@ -10637,4 +10637,53 @@ a.text-dark:hover, a.text-dark:focus {
 .card-blog {
   border: none;
 }
+
+.bg-client {
+  background-image: url(../images/testimonials_background.jpg);
+}
+
+.img-client {
+  border-radius: 50%;
+  border: solid;
+  border-color: white;
+  width: 150px;
+}
+
+.card-client {
+  background-color: rgba(240, 248, 255, 0);
+  border: solid;
+  border-color: white;
+  color: white;
+}
+
+.bg-contact {
+  background: url(../images/main_bg.jpg);
+  height: 100vh;
+}
+
+.card-contact {
+  margin: 0 auto;
+}
+
+.bg-footer {
+  background: url(../images/footer_background.jpg);
+}
+
+.img-footer {
+  width: 100px;
+}
+
+.tag {
+  border: solid;
+  border-radius: 40%;
+}
+
+.copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=style.css.map */
