@@ -4,13 +4,18 @@
 // fixe image
 .img-client {
     border-radius: 50%;
-    border: solid;
+    border: solid 5px;
     border-color: white;
     width: 150px
 }
 .card-client {
     background-color: rgba(240, 248, 255, 0);
-    border: solid;
+    border: solid 0.5px;
     border-color: white;
     color: white;
+}
+.fixe-client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

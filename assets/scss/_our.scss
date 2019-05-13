@@ -16,3 +16,50 @@
         display: inline-block;
     
 }
+.title-section {
+    font-family: 'Courgette', cursive;
+}
+.span-title {
+    font-size: 40px;
+}
+.menu-item {
+    
+    border-right: solid 5px;
+    border-right-color: $danger;
+
+}
+.hover-list {
+    &:hover {
+        border-right: solid 5px !important;
+        border-right-color: $danger !important;
+    }
+}
+.icone-list {
+    font-size: 50px;
+}
+.title-menu-list {
+    font-family: 'Courgette', cursive;
+}
+.lunch-icone {
+    font-size: 70px;
+}
+.border-rounded-list {
+    border-bottom: dotted 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bold-list {
+    font-weight: bold;
+}
+.p-petit {
+    font-size: smaller;
+}
+.couleur-prix {
+    background-color: rgb(235, 231, 231);
+}
+.border-image-list {
+    border: solid 5px;
+    border-color:  rgb(235, 231, 231);
+
+}

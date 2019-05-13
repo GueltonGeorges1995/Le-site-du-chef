@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
   <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="./node_modules/icofont/icofont.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Le Site Du Chef</title>
 </head>
@@ -14,77 +16,83 @@
   <header>
     <div class="container">
       <div class="container abso">
-        <nav class="navbar navbar-expand-lg navbar-light nav-header rel">
+        <nav class="navbar navbar-expand-lg navbar-light nav-header rel mt-3">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto br">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+              <li class="nav-item bg-danger px-3">
+                <a class="nav-link text-light text-header" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+              <li class="nav-item px-3 hover-navbar">
+                <a class="nav-link text-light text-header" href="#">About Us</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Menu List</a>
+              <li class="nav-item px-3 hover-navbar">
+                <a class="nav-link text-light text-header" href="#">Menu List</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
+              <li class="nav-item px-3 hover-navbar">
+                <a class="nav-link text-light text-header" href="#">Team</a>
               </li>
             </ul>
             <img src="./assets/images/logo.png" class="mr-auto" alt="logo">
             <ul class="navbar-nav br">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Reservation</a>
+              <li class="nav-item px-3 hover-navbar">
+                <a class="nav-link text-light text-header" href="#">Reservation</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+              <li class="nav-item px-3 hover-navbar">
+                <a class="nav-link text-light text-header" href="#">Blog</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
+              <li class="nav-item px-3 hover-navbar">
+                <a class="nav-link text-light text-header" href="#">Testimonials</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+              <li class="nav-item px-3 hover-navbar">
+                <a class="nav-link text-light text-header" href="#">Contact Us</a>
               </li>
             </ul>
           </div>
         </nav>
       </div>
     </div>
-    <div id="carouselExampleSlidesOnly myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" class="indicator" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" class="indicator" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" class="indicator" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./assets/images/banner1.jpg" class="d-block w-100 img-carou" alt="...">
           <div class="carousel-caption d-none d-md-block cap">
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <h3 class="text-carou">Whatever your <span class="occasion">occasion</span>,<br><span
+                class="text-danger taste">taste</span> makes it one <br>to remeber !</h3>
+            <div class="mt-5">
+              <button type="button" class="btn btn-light mx-3 btn-carou px-4 py-3">PURCHASE THEME</button>
+              <button type="button" class="btn btn-danger btn-carou px-5 py-3">LEARN MORE</button>
+            </div>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./assets/images/banner1.jpg" class="d-block w-100 img-carou" alt="...">
           <div class="carousel-caption d-none d-md-block cap">
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <h3 class="text-carou">Whatever your <span class="occasion">occasion</span>,<br><span
+                class="text-danger taste">taste</span> makes it one <br>to remeber !</h3>
+            <div class="mt-5">
+              <button type="button" class="btn btn-light mx-3 btn-carou px-4 py-3">PURCHASE THEME</button>
+              <button type="button" class="btn btn-danger btn-carou px-5 py-3">LEARN MORE</button>
+            </div>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./assets/images/banner1.jpg" class="d-block w-100 img-carou" alt="...">
           <div class="carousel-caption d-none d-md-block cap">
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <h3 class="text-carou">Whatever your <span class="occasion">occasion</span>,<br><span
+                class="text-danger taste">taste</span> makes it one <br>to remeber !</h3>
+            <div class="mt-5">
+              <button type="button" class="btn btn-light mx-3 btn-carou px-4 py-3">PURCHASE THEME</button>
+              <button type="button" class="btn btn-danger btn-carou px-5 py-3">LEARN MORE</button>
+            </div>
           </div>
         </div>
       </div>
@@ -93,13 +101,13 @@
   <section>
     <div class="bg-our">
       <div class="container py-5">
-        <div class="bg-light">
+        <div class="bg-light border">
           <div class="row mx-0">
             <div class="col-2 text-left px-0">
               <img src="./assets/images/box-left-top.png" alt="">
             </div>
-            <div class="col-8 text-center">
-              <h2 class="pt-5">Our story</h2>
+            <div class="col-8 text-center mb-5">
+              <h2 class="pt-5 title-section"><span class="text-danger span-title">OUR</span> Story</h2>
               <img src="./assets/images/decoration_line.png" alt="">
               <p class="pt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos non molestiae qui
                 nostrum velit maiores dolores? Iure ipsa corrupti enim labore nemo officiis architecto placeat, ex magni
@@ -109,157 +117,177 @@
                 eligendi, quibusdam ipsum tempora amet beatae? Quia accusantium nisi quidem ratione? Non accusamus
                 molestiae corporis, atque officiis repudiandae? Pariatur fugiat quidem quasi fugit incidunt beatae
                 dolores vero.</p>
-              <h2 class="pt-5">Our Menu</h2>
+              <h2 class="pt-5 title-section"><span class="text-danger span-title">OUR</span> Menu List</h2>
               <img src="./assets/images/decoration_line.png" alt="">
             </div>
             <div class="col-2 text-right px-0">
               <img src="./assets/images/box-right-top.png" alt="">
             </div>
           </div>
-          <div class="row">
-            <div class="col-2 text-center">
-              <i class="fas fa-mug-hot"></i>
-              <h3>Breakfast</h3>
+          <div class="row container">
+            <div class="col-2 text-center menu-item border-bottom">
+              <i class="fas fa-mug-hot text-danger icone-list mb-3"></i>
+              <h3 class="title-menu-list">BreakFast</h3>
             </div>
             <div class="col-10">
-              <div class="row">
+              <div class="row container">
                 <div class="col-6">
-                  <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our">
-                  <div class="text-our">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="price-our">
-                    <p>25$</p>
+                  <div class="border-rounded-list">
+                    <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our mx-1 my-3 border-image-list">
+                    <div class="text-our mx-1 my-3">
+                      <p class="m-0 bold-list p-petit">Deer Steak With Potatoes</p>
+                      <p class="p-petit">Welcome to Risotto restaurant website.Here we try to share our</p>
+                    </div>
+                    <div class="price-our mx-1 my-3">
+                      <p class="couleur-prix text-danger px-3">$25</p>
+                    </div>
                   </div>
                 </div>
                 <div class="col-6">
-                  <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our">
-                  <div class="text-our">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="price-our">
-                    <p>25$</p>
+                  <div class="border-rounded-list">
+                    <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our mx-1 my-3 border-image-list">
+                    <div class="text-our mx-1 my-3">
+                      <p class="m-0 bold-list p-petit">Deer Steak With Potatoes</p>
+                      <p class="p-petit">Welcome to Risotto restaurant website.Here we try to share our</p>
+                    </div>
+                    <div class="price-our mx-1 my-3">
+                      <p class="couleur-prix text-danger px-3">$25</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-2 text-center">
-              <i class="fas fa-mug-hot"></i>
-              <h3>Lunch</h3>
+          <div class="row container">
+            <div class="col-2 text-center border-bottom border-right hover-list">
+              <i class="icofont-fast-food text-secondary lunch-icone"></i>
+              <h3 class="title-menu-list mt-3">Lunch</h3>
             </div>
             <div class="col-10">
-              <div class="row">
+              <div class="row container">
                 <div class="col-6">
-                  <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our">
-                  <div class="text-our">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="price-our">
-                    <p>25$</p>
+                  <div class="border-rounded-list">
+                    <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our mx-1 my-3 border-image-list">
+                    <div class="text-our mx-1 my-3">
+                      <p class="m-0 bold-list p-petit">Deer Steak With Potatoes</p>
+                      <p class="p-petit">Welcome to Risotto restaurant website.Here we try to share our</p>
+                    </div>
+                    <div class="price-our mx-1 my-3">
+                      <p class="couleur-prix text-danger px-3">$25</p>
+                    </div>
                   </div>
                 </div>
                 <div class="col-6">
-                  <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our">
-                  <div class="text-our">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="price-our">
-                    <p>25$</p>
+                  <div class="border-rounded-list">
+                    <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our mx-1 my-3 border-image-list">
+                    <div class="text-our mx-1 my-3">
+                      <p class="m-0 bold-list p-petit">Deer Steak With Potatoes</p>
+                      <p class="p-petit">Welcome to Risotto restaurant website.Here we try to share our</p>
+                    </div>
+                    <div class="price-our mx-1 my-3">
+                      <p class="couleur-prix text-danger px-3">$25</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-2 text-center">
-              <i class="fas fa-mug-hot"></i>
-              <h3>Snacks</h3>
+          <div class="row container">
+            <div class="col-2 text-center border-bottom border-right hover-list">
+              <i class="fas fa-concierge-bell text-secondary icone-list mb-3"></i>
+              <h3 class="title-menu-list">Snacks</h3>
             </div>
             <div class="col-10">
-              <div class="row">
+              <div class="row container">
                 <div class="col-6">
-                  <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our">
-                  <div class="text-our">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="price-our">
-                    <p>25$</p>
+                  <div class="border-rounded-list">
+                    <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our mx-1 my-3 border-image-list">
+                    <div class="text-our mx-1 my-3">
+                      <p class="m-0 bold-list p-petit">Deer Steak With Potatoes</p>
+                      <p class="p-petit">Welcome to Risotto restaurant website.Here we try to share our</p>
+                    </div>
+                    <div class="price-our mx-1 my-3">
+                      <p class="couleur-prix text-danger px-3">$25</p>
+                    </div>
                   </div>
                 </div>
                 <div class="col-6">
-                  <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our">
-                  <div class="text-our">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="price-our">
-                    <p>25$</p>
+                  <div class="border-rounded-list">
+                    <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our mx-1 my-3 border-image-list">
+                    <div class="text-our mx-1 my-3">
+                      <p class="m-0 bold-list p-petit">Deer Steak With Potatoes</p>
+                      <p class="p-petit">Welcome to Risotto restaurant website.Here we try to share our</p>
+                    </div>
+                    <div class="price-our mx-1 my-3">
+                      <p class="couleur-prix text-danger px-3">$25</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-2 text-center">
-              <i class="fas fa-mug-hot"></i>
-              <h3>Dinner</h3>
+          <div class="row container">
+            <div class="col-2 text-center border-bottom border-right hover-list">
+              <i class="fas fa-mug-hot icone-list text-secondary my-3"></i>
+              <h3 class="title-menu-list">Dinner</h3>
             </div>
             <div class="col-10">
-              <div class="row">
+              <div class="row container">
                 <div class="col-6">
-                  <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our">
-                  <div class="text-our">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="price-our">
-                    <p>25$</p>
+                  <div class="border-rounded-list">
+                    <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our mx-1 my-3 border-image-list">
+                    <div class="text-our mx-1 my-3">
+                      <p class="m-0 bold-list p-petit">Deer Steak With Potatoes</p>
+                      <p class="p-petit">Welcome to Risotto restaurant website.Here we try to share our</p>
+                    </div>
+                    <div class="price-our mx-1 my-3">
+                      <p class="couleur-prix text-danger px-3">$25</p>
+                    </div>
                   </div>
                 </div>
                 <div class="col-6">
-                  <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our">
-                  <div class="text-our">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="price-our">
-                    <p>25$</p>
+                  <div class="border-rounded-list">
+                    <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our mx-1 my-3 border-image-list">
+                    <div class="text-our mx-1 my-3">
+                      <p class="m-0 bold-list p-petit">Deer Steak With Potatoes</p>
+                      <p class="p-petit">Welcome to Risotto restaurant website.Here we try to share our</p>
+                    </div>
+                    <div class="price-our mx-1 my-3">
+                      <p class="couleur-prix text-danger px-3">$25</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-2 text-center">
+          <div class="row container">
+            <div class="col-2 text-center border-right">
 
             </div>
             <div class="col-10">
-              <div class="row">
+              <div class="row container">
                 <div class="col-6">
-                  <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our">
-                  <div class="text-our">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="price-our">
-                    <p>25$</p>
+                  <div class="border-rounded-list">
+                    <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our mx-1 my-3 border-image-list">
+                    <div class="text-our mx-1 my-3">
+                      <p class="m-0 bold-list p-petit">Deer Steak With Potatoes</p>
+                      <p class="p-petit">Welcome to Risotto restaurant website.Here we try to share our</p>
+                    </div>
+                    <div class="price-our mx-1 my-3">
+                      <p class="couleur-prix text-danger px-3">$25</p>
+                    </div>
                   </div>
                 </div>
                 <div class="col-6">
-                  <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our">
-                  <div class="text-our">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                  </div>
-                  <div class="price-our">
-                    <p>25$</p>
+                  <div class="border-rounded-list">
+                    <img src="./assets/images/menu_image_1.jpg" alt="" class="img-our mx-1 my-3 border-image-list">
+                    <div class="text-our mx-1 my-3">
+                      <p class="m-0 bold-list p-petit">Deer Steak With Potatoes</p>
+                      <p class="p-petit">Welcome to Risotto restaurant website.Here we try to share our</p>
+                    </div>
+                    <div class="price-our mx-1 my-3">
+                      <p class="couleur-prix text-danger px-3">$25</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -278,28 +306,28 @@
     </div>
   </section>
   <section>
-    <div class="bg-dark">
-      <div class="text-center pt-5">
-        <h2>Our Chef</h2>
+    <div class="bg-chef">
+      <div class="text-center pt-4">
+        <h2 class="pt-5 title-section text-light"><span class="text-danger span-title">MEET</span> Our Chef</h2>
         <img src="./assets/images/decoration_line.png" alt="" class="">
       </div>
       <div class="container pt-5">
         <div class="row">
           <div class="col-3 text-center">
             <img src="./assets/images/chef1.png" alt="" class="border-chef">
-            <p>Lorem ipsum</p>
+            <p class="text-light">Lorem ipsum</p>
           </div>
           <div class="col-3 text-center">
             <img src="./assets/images/chef2.png" alt="" class="border-chef">
-            <p>Lorem ipsum dolor</p>
+            <p class="text-light">Lorem ipsum</p>
           </div>
           <div class="col-3 text-center">
             <img src="./assets/images/chef3.png" alt="" class="border-chef">
-            <p>Lorem ipsum</p>
+            <p class="text-light">Lorem ipsum</p>
           </div>
           <div class="col-3 text-center">
             <img src="./assets/images/chef4.png" alt="" class="border-chef">
-            <p>Lorem ipsum</p>
+            <p class="text-light">Lorem ipsum</p>
           </div>
         </div>
       </div>
@@ -314,8 +342,8 @@
             <img src="./assets/images/box-left-top-grey.png" alt="">
           </div>
           <div class="col-8 text-center">
-            <h2 class="pt-5">Book yout table</h2>
-            <img src="./assets/images/decoration_line.png" alt="">
+            <h2 class="pt-5 title-section pb-0 mb-0"><span class="text-danger span-title">BOOK</span> Your table</h2>
+            <img src="./assets/images/decoration_line.png" alt="" class="mb-5">
           </div>
           <div class="col-2 text-right px-0">
             <img src="./assets/images/box-right-top-grey.png" alt="">
@@ -323,19 +351,20 @@
         </div>
         <div class="container">
           <div class="bg-form marge-form text-center">
-            <h2 class="py-5">Lorem ipsum dolor sit amet.</h2>
+            <p class="py-5 text-light">For any query please call us at : <span
+                class="font-weight-bold">+91-1234567890</span></p>
             <form class="">
-              <div class="row py-3">
+              <div class="row py-2">
                 <div class="col-2"></div>
                 <div class="col-4">
                   <input type="text" class="form-control" placeholder="First name">
                 </div>
                 <div class="col-4">
-                  <input type="text" class="form-control" placeholder="Last name">
+                  <input type="text" class="form-control" placeholder="First name">
                 </div>
                 <div class="col-2"></div>
               </div>
-              <div class="row py-3">
+              <div class="row py-2">
                 <div class="col-2"></div>
                 <div class="col-4">
                   <input type="text" class="form-control" placeholder="First name">
@@ -348,7 +377,7 @@
                 </div>
                 <div class="col-2"></div>
               </div>
-              <div class="row py-3">
+              <div class="row py-2">
                 <div class="col-2"></div>
                 <div class="col-4">
                   <input type="text" class="form-control" placeholder="First name">
@@ -358,7 +387,7 @@
                 </div>
                 <div class="col-2"></div>
               </div>
-              <div class="row py-3">
+              <div class="row py-2">
                 <div class="col-2"></div>
                 <div class="col-4">
                   <select id="inputState" class="form-control">
@@ -375,23 +404,27 @@
                 <div class="col-2"></div>
               </div>
             </form>
-            <button type="button" class="btn btn-primary mt-4">Primary</button>
+            <button type="button" class="btn btn-danger my-5 px-3 btn-book">BOOK NOW</button>
           </div>
         </div>
         <div class="text-center">
-          <h2 class="pt-5">Our blog</h2>
+          <h2 class="pt-5 title-section pb-0 mb-0"><span class="text-danger span-title">OUR</span> Blog</h2>
           <img src="./assets/images/decoration_line.png" alt="" class="mb-5">
         </div>
         <div class="container">
-          <div class="row mx-0">
+          <div class="row">
             <div class="col-1"></div>
             <div class="col-5">
+              <div class="bg-danger bonus-info text-light cap-rond">
+                <span class="font-weight-bold font-cap">12</span> april 2017<span class="font-cap">/</span><span
+                  class="font-weight-bold font-cap"> 20</span> Comment <span class="font-cap">/</span> <span
+                  class="font-weight-bold font-cap"> 35</span> likes
+              </div>
               <div class="card card-blog bg-light">
-                <img class="card-img-top" src="./assets/images/blog_img1.jpg" alt="Card image cap">
-                <div class="card-body">
-
+                <img class="card-img-top border-img-blog" src="./assets/images/blog_img1.jpg" alt="Card image cap">
+                <div class="card-body mt-3">
                   <p class="card-text">
-                    Lorem, ipsum
+                    <strong>Lorem, ipsum</strong>
                   </p>
                   <p class="card-text">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur sapiente illum assumenda?
@@ -400,11 +433,16 @@
               </div>
             </div>
             <div class="col-5">
+              <div class="bg-danger bonus-info text-light cap-rond">
+                <span class="font-weight-bold font-cap">12</span> april 2017<span class="font-cap">/</span><span
+                  class="font-weight-bold font-cap"> 20</span> Comment <span class="font-cap">/</span> <span
+                  class="font-weight-bold font-cap"> 35</span> likes
+              </div>
               <div class="card card-blog bg-light">
-                <img class="card-img-top" src="./assets/images/blog_img2.jpg" alt="Card image cap">
-                <div class="card-body">
+                <img class="card-img-top border-img-blog" src="./assets/images/blog_img2.jpg" alt="Card image cap">
+                <div class="card-body mt-3">
                   <p class="card-text">
-                    Lorem, ipsum
+                    <strong>Lorem, ipsum</strong>
                   </p>
                   <p class="card-text">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur sapiente illum assumenda?
@@ -416,7 +454,7 @@
           </div>
         </div>
         <div class="text-center mt-5">
-          <button type="button" class="btn btn-danger">Danger</button>
+          <button type="button" class="btn btn-danger btn-blog">KNOW MORE</button>
         </div>
         <div class="row">
           <div class="col-6 text-left">
@@ -433,18 +471,18 @@
   <section class="bg-client">
     <div class="container py-5">
       <div class="text-center">
-        <h2>Client Testimonials</h2>
-        <img src="./assets/images/decoration_line.png" alt="">
+        <h2 class="pt-4 title-section text-light"><span class="text-danger span-title">ClIENT</span> Testimonials</h2>
+        <img src="./assets/images/decoration_line.png" alt="" class="mb-5">
       </div>
-      <div class="row mt-5">
+      <div class="row mt-5 fixe-client mb-3">
         <div class="col-2">
           <img src="./assets/images/testimonial1.jpg" alt="" class="img-client">
         </div>
         <div class="col-4">
           <div class="card card-client">
             <div class="card-body">
-              <h4 class="card-title">Lorem, ipsum.</h4>
-              <h6 class="card-subtitle mb-2">Manager</h6>
+              <h6 class="card-title">Lorem, ipsum.</h6>
+              <h6 class="card-subtitle mb-2 text-danger">Manager</h6>
               <p class="card-text">
                 Some quick example text to build on the card title
                 and make up the bulk of the card's content.
@@ -456,8 +494,8 @@
         <div class="col-4">
           <div class="card card-client">
             <div class="card-body">
-              <h4 class="card-title">Lorem, ipsum.</h4>
-              <h6 class="card-subtitle mb-2">Manager</h6>
+              <h6 class="card-title">Lorem, ipsum.</h6>
+              <h6 class="card-subtitle mb-2 text-danger">Manager</h6>
               <p class="card-text">
                 Some quick example text to build on the card title
                 and make up the bulk of the card's content.
@@ -469,7 +507,6 @@
         <div class="col-2">
           <img src="./assets/images/testimonial1.jpg" alt="" class="img-client">
         </div>
-
 
       </div>
     </div>
@@ -477,22 +514,22 @@
   <section class="bg-contact">
     <div class="row mx-0">
       <div class="col-12 text-center mt-5">
-        <h2>Contact</h2>
+        <h2 class="pt-4 title-section"><span class="text-danger span-title">OUR</span> Contact</h2>
         <img src="./assets/images/decoration_line.png" alt="">
       </div>
       <div class="row card-contact mt-5">
         <div class="col-12 text-center">
-          <div class="bg-danger text-center px-5 rounded">
-            <div class="py-5 border-bottom text-light">
-              <i class="fas fa-map-marker-alt"></i>
+          <div class="bg-danger text-center px-5 contact-bordure">
+            <div class="py-2 pt-5 border-bottom text-light">
+              <i class="fas fa-map-marker-alt taille-icones-contact"></i>
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quaerat, possimus!</p>
             </div>
-            <div class="py-5 border-bottom text-light">
-              <i class="fas fa-phone"></i>
+            <div class="py-2 border-bottom text-light">
+              <i class="fas fa-phone taille-icones-contact"></i>
               <p>91-987654321</p>
             </div>
-            <div class="py-5 text-light">
-              <i class="fas fa-envelope"></i>
+            <div class="py-2 pb-3 text-light">
+              <i class="fas fa-envelope taille-icones-contact"></i>
               <p>abc.abc.com</p>
             </div>
           </div>

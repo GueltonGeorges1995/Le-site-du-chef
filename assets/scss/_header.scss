@@ -22,12 +22,46 @@
 }
 // Les border de la nav
 .br {
-    border-top: solid;
-    border-bottom: solid;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
     border-color: white;
+    
 }
 // Fixe le captation
 .cap {
-    bottom: 50% !important;
+    bottom: 35% !important;
 }
 // Indicateur carousel 
+
+// Modifie la largeur de la police de la navbar
+.text-header {
+    font-size: large
+}
+
+// Hover sur la navbar 
+.hover-navbar {
+    &:hover {
+        background-color: $danger;
+    }
+}
+// La couleur du text du carou
+.text-carou {
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+}
+.occasion {
+    font-size: 100px;
+}
+.taste {
+    font-size: 100px;
+}
+.btn-carou {
+    border-radius: 30px;
+}
+.indicator {
+    border-radius: 100% !important;
+    width: 12px !important;
+    height: 12px !important;
+    background-color: #404040;
+
+}

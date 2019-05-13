@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10587,13 +10588,45 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .br {
-  border-top: solid;
-  border-bottom: solid;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
   border-color: white;
 }
 
 .cap {
-  bottom: 50% !important;
+  bottom: 35% !important;
+}
+
+.text-header {
+  font-size: large;
+}
+
+.hover-navbar:hover {
+  background-color: #dc3545;
+}
+
+.text-carou {
+  font-family: 'Courgette', cursive;
+  font-size: 50px;
+}
+
+.occasion {
+  font-size: 100px;
+}
+
+.taste {
+  font-size: 100px;
+}
+
+.btn-carou {
+  border-radius: 30px;
+}
+
+.indicator {
+  border-radius: 100% !important;
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #404040;
 }
 
 .bg-our {
@@ -10614,9 +10647,73 @@ a.text-dark:hover, a.text-dark:focus {
   display: inline-block;
 }
 
+.title-section {
+  font-family: 'Courgette', cursive;
+}
+
+.span-title {
+  font-size: 40px;
+}
+
+.menu-item {
+  border-right: solid 5px;
+  border-right-color: #dc3545;
+}
+
+.hover-list:hover {
+  border-right: solid 5px !important;
+  border-right-color: #dc3545 !important;
+}
+
+.icone-list {
+  font-size: 50px;
+}
+
+.title-menu-list {
+  font-family: 'Courgette', cursive;
+}
+
+.lunch-icone {
+  font-size: 70px;
+}
+
+.border-rounded-list {
+  border-bottom: dotted 0.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bold-list {
+  font-weight: bold;
+}
+
+.p-petit {
+  font-size: smaller;
+}
+
+.couleur-prix {
+  background-color: #ebe7e7;
+}
+
+.border-image-list {
+  border: solid 5px;
+  border-color: #ebe7e7;
+}
+
 .border-chef {
-  border-bottom: solid;
+  border-bottom: solid 0.5px;
   border-color: white;
+}
+
+.bg-chef {
+  background-color: black;
 }
 
 .bg-book {
@@ -10625,17 +10722,65 @@ a.text-dark:hover, a.text-dark:focus {
 
 .bg-form {
   background-image: url(../images/book_table_bg.jpg);
-  height: 50vh;
+  background-size: cover;
 }
 
 .marge-form {
   margin: 0 15%;
   border-radius: 10px;
-  height: 75vh;
 }
 
 .card-blog {
   border: none;
+}
+
+.title-book {
+  font-size: small;
+}
+
+.h-input {
+  height: 40px !important;
+}
+
+.btn-book {
+  border-radius: 20px;
+}
+
+.border-img-blog {
+  border: solid 5px;
+  border-color: #ebe7e7;
+  border-radius: 25px;
+}
+
+.blog-1 {
+  position: relative;
+}
+
+.zoom-blog  {
+  position: absolute;
+  top: -100px;
+}
+
+.bonus-info {
+  position: absolute;
+  top: 220px;
+  z-index: 2;
+  right: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 23px;
+}
+
+.font-cap {
+  font-size: x-large;
+}
+
+.cap-rond {
+  border-radius: 10px;
+}
+
+.btn-blog {
+  border-radius: 25px;
 }
 
 .bg-client {
@@ -10644,16 +10789,28 @@ a.text-dark:hover, a.text-dark:focus {
 
 .img-client {
   border-radius: 50%;
-  border: solid;
+  border: solid 5px;
   border-color: white;
   width: 150px;
 }
 
 .card-client {
   background-color: rgba(240, 248, 255, 0);
-  border: solid;
+  border: solid 0.5px;
   border-color: white;
   color: white;
+}
+
+.fixe-client {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .bg-contact {
@@ -10663,6 +10820,14 @@ a.text-dark:hover, a.text-dark:focus {
 
 .card-contact {
   margin: 0 auto;
+}
+
+.contact-bordure {
+  border-radius: 25px;
+}
+
+.taille-icones-contact {
+  font-size: 50px;
 }
 
 .bg-footer {
