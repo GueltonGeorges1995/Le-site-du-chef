@@ -65,3 +65,43 @@
     background-color: #404040;
 
 }
+.header-rel {
+    position: relative;
+}
+
+
+.ligne-header {
+    background-image: url(../images/bottom_decoration_img.png);
+    z-index: 2;
+    position: absolute;
+    height: 15px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.indi {
+    border-radius: 50% !important;
+    height: 10px !important;
+    width: 10px !important;
+    border: none !important;
+    
+}
+
+.rel-rond {
+  .active {
+    z-index: 2;
+    position: relative;
+    border: solid 4px;
+    .rond {
+        position: absolute;
+        height: 22px;
+        width: 22px;
+        border: solid 2px white;
+        z-index: 3;
+        top: -6px;
+        left: -6px;
+        border-radius: 20px;
+    }
+  }
+}

@@ -40,12 +40,13 @@
 }
 .bonus-info {
     position: absolute;
-    top: 220px;
+    top: 227px;
     z-index: 2;
-    right: 70px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 23px;
+    right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 40px;
     
 }
 
@@ -57,4 +58,14 @@
 }
 .btn-blog {
     border-radius: 25px;
+}
+.form-control {
+    height: 6vh;
+    border-radius: 15px !important;
+    width: 31vh;
+}
+#inputState{
+    height: 6vh;
+    border-radius: 15px !important;
+    width: 31vh;
 }

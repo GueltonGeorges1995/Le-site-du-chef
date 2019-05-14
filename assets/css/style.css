@@ -10629,6 +10629,43 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #404040;
 }
 
+.header-rel {
+  position: relative;
+}
+
+.ligne-header {
+  background-image: url(../images/bottom_decoration_img.png);
+  z-index: 2;
+  position: absolute;
+  height: 15px;
+  bottom: 0;
+  width: 100%;
+}
+
+.indi {
+  border-radius: 50% !important;
+  height: 10px !important;
+  width: 10px !important;
+  border: none !important;
+}
+
+.rel-rond .active {
+  z-index: 2;
+  position: relative;
+  border: solid 4px;
+}
+
+.rel-rond .active .rond {
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  border: solid 2px white;
+  z-index: 3;
+  top: -6px;
+  left: -6px;
+  border-radius: 20px;
+}
+
 .bg-our {
   background-image: url(../images/main_bg.jpg);
 }
@@ -10763,12 +10800,13 @@ a.text-dark:hover, a.text-dark:focus {
 
 .bonus-info {
   position: absolute;
-  top: 220px;
+  top: 227px;
   z-index: 2;
-  right: 70px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 23px;
+  right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  padding-left: 40px;
 }
 
 .font-cap {
@@ -10781,6 +10819,18 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-blog {
   border-radius: 25px;
+}
+
+.form-control {
+  height: 6vh;
+  border-radius: 15px !important;
+  width: 31vh;
+}
+
+#inputState {
+  height: 6vh;
+  border-radius: 15px !important;
+  width: 31vh;
 }
 
 .bg-client {
@@ -10815,7 +10865,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .bg-contact {
   background: url(../images/main_bg.jpg);
-  height: 100vh;
 }
 
 .card-contact {
@@ -10827,11 +10876,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .taille-icones-contact {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .bg-footer {
   background: url(../images/footer_background.jpg);
+  background-position: center;
 }
 
 .img-footer {
@@ -10839,8 +10889,9 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .tag {
-  border: solid;
-  border-radius: 40%;
+  border: solid 0.5px;
+  border-color: white;
+  border-radius: 20px;
 }
 
 .copy {
@@ -10850,5 +10901,25 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icone-footer {
+  font-size: 30px;
+}
+
+.fofo {
+  position: relative;
+}
+
+.ligne-footer {
+  background-image: url(../images/footer_bottom_decoration_img.png);
+  z-index: 2;
+  position: absolute;
+  height: 15px;
+  top: 0;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

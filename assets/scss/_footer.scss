@@ -1,15 +1,33 @@
 .bg-footer {
     background: url(../images/footer_background.jpg);
+    background-position: center;
     
 }
 .img-footer {
     width: 100px;
 }
 .tag {
-    border: solid;
-    border-radius: 40%
+    border: solid 0.5px;
+    border-color: white;
+    border-radius: 20px;
 }
 .copy {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.icone-footer {
+    font-size: 30px;
+}
+
+.fofo {
+    position: relative;
+}
+.ligne-footer {
+    background-image: url(../images/footer_bottom_decoration_img.png);
+    z-index: 2;
+    position: absolute;
+    height: 15px;
+    top: 0;
+    width: 100%;
 }

@@ -13,7 +13,8 @@
 </head>
 
 <body>
-  <header>
+  <header class="header-rel">
+    <div class="ligne-header"></div>
     <div class="container">
       <div class="container abso">
         <nav class="navbar navbar-expand-lg navbar-light nav-header rel mt-3">
@@ -30,7 +31,7 @@
                 <a class="nav-link text-light text-header" href="#">About Us</a>
               </li>
               <li class="nav-item px-3 hover-navbar">
-                <a class="nav-link text-light text-header" href="#">Menu List</a>
+                <a class="nav-link text-light text-header" href="#">Menu list</a>
               </li>
               <li class="nav-item px-3 hover-navbar">
                 <a class="nav-link text-light text-header" href="#">Team</a>
@@ -48,7 +49,7 @@
                 <a class="nav-link text-light text-header" href="#">Testimonials</a>
               </li>
               <li class="nav-item px-3 hover-navbar">
-                <a class="nav-link text-light text-header" href="#">Contact Us</a>
+                <a class="nav-link text-light text-header" href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -56,11 +57,17 @@
       </div>
     </div>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" class="indicator" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" class="indicator" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" class="indicator" data-slide-to="2"></li>
-      </ol>
+        <ol class="carousel-indicators rel-rond">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active indi">
+              <div class="rond"></div>
+            </li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="indi">
+                <div class="rond"></div>
+            </li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="indi">
+                <div class="rond"></div>
+            </li>
+          </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./assets/images/banner1.jpg" class="d-block w-100 img-carou" alt="...">
@@ -68,8 +75,8 @@
             <h3 class="text-carou">Whatever your <span class="occasion">occasion</span>,<br><span
                 class="text-danger taste">taste</span> makes it one <br>to remeber !</h3>
             <div class="mt-5">
-              <button type="button" class="btn btn-light mx-3 btn-carou px-4 py-3">PURCHASE THEME</button>
-              <button type="button" class="btn btn-danger btn-carou px-5 py-3">LEARN MORE</button>
+              <button type="button" class="btn btn-light mx-3 btn-carou px-5 py-3">PURCHASE THEME</button>
+              <button type="button" class="btn btn-danger btn-carou px-4 py-3">LEARN MORE</button>
             </div>
           </div>
         </div>
@@ -79,8 +86,8 @@
             <h3 class="text-carou">Whatever your <span class="occasion">occasion</span>,<br><span
                 class="text-danger taste">taste</span> makes it one <br>to remeber !</h3>
             <div class="mt-5">
-              <button type="button" class="btn btn-light mx-3 btn-carou px-4 py-3">PURCHASE THEME</button>
-              <button type="button" class="btn btn-danger btn-carou px-5 py-3">LEARN MORE</button>
+              <button type="button" class="btn btn-light mx-3 btn-carou px-5 py-3">PURCHASE THEME</button>
+              <button type="button" class="btn btn-danger btn-carou px-4 py-3">LEARN MORE</button>
             </div>
           </div>
         </div>
@@ -90,8 +97,8 @@
             <h3 class="text-carou">Whatever your <span class="occasion">occasion</span>,<br><span
                 class="text-danger taste">taste</span> makes it one <br>to remeber !</h3>
             <div class="mt-5">
-              <button type="button" class="btn btn-light mx-3 btn-carou px-4 py-3">PURCHASE THEME</button>
-              <button type="button" class="btn btn-danger btn-carou px-5 py-3">LEARN MORE</button>
+              <button type="button" class="btn btn-light mx-3 btn-carou px-5 py-3">PURCHASE THEME</button>
+              <button type="button" class="btn btn-danger btn-carou px-4 py-3">LEARN MORE</button>
             </div>
           </div>
         </div>
@@ -373,6 +380,7 @@
                   <select id="inputState" class="form-control">
                     <option selected>Choose...</option>
                     <option>...</option>
+                    <option value="">azerty</option>
                   </select>
                 </div>
                 <div class="col-2"></div>
@@ -511,7 +519,7 @@
       </div>
     </div>
   </section>
-  <section class="bg-contact">
+  <section class="bg-contact pb-5">
     <div class="row mx-0">
       <div class="col-12 text-center mt-5">
         <h2 class="pt-4 title-section"><span class="text-danger span-title">OUR</span> Contact</h2>
@@ -519,7 +527,7 @@
       </div>
       <div class="row card-contact mt-5">
         <div class="col-12 text-center">
-          <div class="bg-danger text-center px-5 contact-bordure">
+          <div class="bg-danger text-center px-3 contact-bordure">
             <div class="py-2 pt-5 border-bottom text-light">
               <i class="fas fa-map-marker-alt taille-icones-contact"></i>
               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quaerat, possimus!</p>
@@ -537,23 +545,26 @@
       </div>
     </div>
   </section>
-  <footer>
+
+  <footer class="fofo">
+    <div class="ligne-footer"></div>
     <div class="bg-footer">
       <div class="container">
-        <div class="row text-light">
-          <div class="col-4">
+        <div class="row text-light pt-5">
+          <div class="col-4 mb-5">
             <h2>About us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facilis pariatur laudantium cum
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio facilis pariatur
+              laudantium cum
               tenetur totam omnis cumque consequatur, provident ea assumenda eligendi dolores inventore, nemo tempora
-              excepturi? Minima magnam perspiciatis laudantium nisi corrupti eius in, cum quis, </p>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-google-plus-g"></i>
-            <i class="fab fa-pinterest-p"></i>
-            <i class="fab fa-linkedin-in"></i>
+              excepturi? </p>
+            <i class="fab fa-facebook-f icone-footer mr-4"></i>
+            <i class="fab fa-google-plus-g icone-footer mr-4"></i>
+            <i class="fab fa-pinterest-p icone-footer mr-4"></i>
+            <i class="fab fa-linkedin-in icone-footer mr-4"></i>
           </div>
           <div class="col-4">
             <h2>instagram</h2>
-            <div class="row">
+            <div class="row mt-4">
               <div class="col-3">
                 <img src="./assets/images/instragram_gallery_img1.jpg" alt="">
               </div>
@@ -567,7 +578,7 @@
                 <img src="./assets/images/instragram_gallery_img2.jpg" alt="">
               </div>
             </div>
-            <div class="row mt-3">
+            <div class="row mt-2">
               <div class="col-3"><img src="./assets/images/instragram_gallery_img2.jpg" alt=""></div>
               <div class="col-3"><img src="./assets/images/instragram_gallery_img1.jpg" alt=""></div>
               <div class="col-3"><img src="./assets/images/instragram_gallery_img2.jpg" alt=""></div>
@@ -576,44 +587,37 @@
           </div>
           <div class="col-4">
             <h2>popular tags</h2>
-            <div class="row">
-              <div class="col-3">
-                <p class="bg-danger text-light tag text-center">restaurant</p>
-              </div>
-              <div class="col-6">
-                <p class="bg-danger text-light tag text-center">responsive design</p>
-              </div>
-              <div class="col-3">
-                <p class="bg-danger text-light tag text-center">Hotel</p>
+            <div class="row mt-4">
+              <div class="col-12">
+                <button type="button" class="btn btn-danger tag mx-1">Danger</button>
+                <button type="button" class="btn btn-danger tag mx-1">responsive design</button>
+                <button type="button" class="btn btn-danger tag mx-1">Hotel</button>
               </div>
             </div>
-            <div class="row">
-              <div class="col-5">
-                <p class="bg-danger text-light tag text-center">blog section</p>
+
+            <div class="row mt-2">
+              <div class="col-12">
+                <button type="button" class="btn btn-danger tag mx-1">Blog section</button>
+                <button type="button" class="btn btn-danger tag mx-1">SEO</button>
+                <button type="button" class="btn btn-danger tag mx-1">Cuisine</button>
               </div>
-              <div class="col-2">
-                <p class="bg-danger text-light tag text-center">SEO</p>
-              </div>
-              <div class="col-3">
-                <p class="bg-danger text-light tag text-center">Cuisine</p>
-              </div>
-              <div class="col-2"></div>
             </div>
-            <div class="row">
-              <div class="col-3">
-                <p class="bg-danger text-light tag text-center">Graphic</p>
+
+            <div class="row mt-2">
+              <div class="col-12">
+                <button type="button" class="btn btn-danger tag mx-1">Graphic</button>
+                <button type="button" class="btn btn-danger tag mx-1">Food</button>
               </div>
-              <div class="col-2">
-                <p class="bg-danger text-light tag text-center">food</p>
-              </div>
-              <div class="col-7"></div>
             </div>
+
+
+
           </div>
         </div>
       </div>
     </div>
-    <div class="bg-danger text-center py-4 text-light copy">
-      <div>
+    <div>
+      <div class="bg-danger text-center py-3 text-light copy">
         <p>Copyright © 2017 Design by resier techub</p>
       </div>
     </div>
