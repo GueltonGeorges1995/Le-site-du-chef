@@ -10598,7 +10598,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-header {
-  font-size: large;
+  font-size: small;
 }
 
 .hover-navbar:hover {
@@ -10611,7 +10611,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .occasion {
-  font-size: 100px;
+  font-size: 80px;
 }
 
 .taste {
@@ -10664,6 +10664,14 @@ a.text-dark:hover, a.text-dark:focus {
   top: -6px;
   left: -6px;
   border-radius: 20px;
+}
+
+.img-nav-bas {
+  margin-bottom: 28px;
+}
+
+.cap-header-correction {
+  line-height: 0.9;
 }
 
 .bg-our {
