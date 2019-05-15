@@ -10702,6 +10702,14 @@ a.text-dark:hover, a.text-dark:focus {
   border-right-color: #dc3545 !important;
 }
 
+.hover-list:hover i {
+  color: #dc3545;
+}
+
+.icones-couleur {
+  color: #d8d3d3;
+}
+
 .icone-list {
   font-size: 50px;
 }
@@ -10750,7 +10758,10 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .bg-chef {
-  background-color: black;
+  background-image: url(../images/team_background.jpg);
+  background-size: 800%;
+  background-position-x: 48%;
+  background-position-y: 45%;
 }
 
 .bg-book {
@@ -10849,8 +10860,8 @@ select {
 .bg-client {
   background-image: url(../images/testimonials_background.jpg);
   background-size: 800%;
-  background-position-x: 45%;
-  background-position-y: 46%;
+  background-position-x: 50%;
+  background-position-y: 82%;
 }
 
 .img-client {

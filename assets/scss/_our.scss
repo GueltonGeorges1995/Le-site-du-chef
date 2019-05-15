@@ -32,7 +32,15 @@
     &:hover {
         border-right: solid 5px !important;
         border-right-color: $danger !important;
+        i {
+            color: $danger;
+        }
+        
     }
+
+}
+.icones-couleur {
+    color: rgb(216, 211, 211);
 }
 .icone-list {
     font-size: 50px;
