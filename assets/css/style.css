@@ -10842,13 +10842,13 @@ a.text-dark:hover, a.text-dark:focus {
 
 .form-control {
   height: 6vh;
-  border-radius: 15px !important;
+  border-radius: 10px !important;
   width: 31vh;
 }
 
 #inputState {
   height: 6vh;
-  border-radius: 15px !important;
+  border-radius: 10px !important;
   width: 31vh;
 }
 
